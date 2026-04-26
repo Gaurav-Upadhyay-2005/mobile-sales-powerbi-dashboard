@@ -12,13 +12,13 @@
 ## 📸 Dashboard Preview
 
 ### 🏠 Main Dashboard
-![Main Dashboard](assests/Screenshot_2026-04-25_224945.png)
+![Main Dashboard](assets/Screenshot_2026-04-25_224945.png)
 
 ### 📅 MTD Report
-![MTD Report](assests/Screenshot_2026-04-25_225201.png)
+![MTD Report](assets/Screenshot_2026-04-25_225201.png)
 
 ### 📆 Same Period Last Year
-![Same Period Last Year](assests/Screenshot_2026-04-25_225331.png)
+![Same Period Last Year](assets/Screenshot_2026-04-25_225331.png)
 
 ---
 

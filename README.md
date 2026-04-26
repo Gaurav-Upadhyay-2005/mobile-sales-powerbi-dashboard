@@ -9,9 +9,33 @@
 
 ---
 
+## 📸 Dashboard Preview
+
+### 🏠 Main Dashboard
+![Main Dashboard](assets/Screenshot_2026-04-25_224945.png)
+
+### 📅 MTD Report
+![MTD Report](assets/Screenshot_2026-04-25_225201.png)
+
+### 📆 Same Period Last Year
+![Same Period Last Year](assets/Screenshot_2026-04-25_225331.png)
+
+---
+
 ## 📌 Project Overview
 
-This dashboard analyzes mobile phone sales data to help business stakeholders monitor key performance indicators in real time, compare trends across time periods, and make data-driven decisions.
+This dashboard analyzes **3,835 transactions** of mobile phone sales data to help business stakeholders monitor key performance indicators in real time, compare trends across time periods, and make data-driven decisions.
+
+---
+
+## 📁 Dataset
+
+| Detail | Info |
+|--------|------|
+| **File** | `data/Mobile_Sales_Data.xlsx` |
+| **Rows** | 3,835 transactions |
+| **Columns** | 14 fields |
+| **Fields** | Transaction ID, Day, Month, Year, Day Name, Brand, Units Sold, Price Per Unit, Customer Name, Customer Age, City, Payment Method, Customer Ratings, Mobile Model |
 
 ---
 
@@ -20,26 +44,26 @@ This dashboard analyzes mobile phone sales data to help business stakeholders mo
 ### 1. 🏠 Main Dashboard
 The primary overview page featuring:
 - **KPI Cards** — Total Sales, Total Quantity, Total Transactions, Average Price
-- **Map Visual** — Geographic distribution of sales
-- **Line Chart** — Sales trend over time
-- **Funnel Chart** — Sales pipeline / conversion funnel
-- **Pie Chart** — Category/segment-wise sales breakdown
-- **Bar Chart** — Product-wise or region-wise comparison
-- **Area Chart** — Revenue trend visualization
-- **Data Table** — Detailed transactional view
-- **Slicers** — Dynamic filters for date, region, product, etc.
+- **Map Visual** — Geographic distribution of sales across cities (Mumbai, Lucknow, Hyderabad, Rajkot, Indore, Kanpur)
+- **Line Chart** — Monthly quantity trend (Jan–Dec)
+- **Bar Chart** — Total Sales by Mobile Model
+- **Pie Chart** — Transactions by Payment Method
+- **Funnel Chart** — Rating by Rating Status
+- **Area Chart** — Total Sales by Day Name
+- **Data Table** — Brand-wise Sales & Transactions
+- **Slicers** — Filter by Mobile Model, Payment Method, Brand, Month
 
 ### 2. 📅 MTD Report (Month-To-Date)
-Tracks current month's performance with:
-- Running MTD metrics vs targets
-- Line chart for daily trend within the month
-- Interactive slicers for real-time filtering
+Tracks current month's cumulative performance:
+- Running MTD sales line chart (daily granularity)
+- KPI cards updated dynamically with MTD values
+- Slicers for Mobile Model, Payment Method, Year
 
 ### 3. 📆 Same Period Last Year (SPLY)
 Year-over-Year comparison featuring:
-- 3 Clustered Column Charts comparing current vs previous year
-- Detailed comparison table
-- Period slicers for flexible date selection
+- Clustered column charts: Total Sales vs SPLY by Year, Month, Quarter
+- Comparison table with exact figures
+- Slicers for flexible period selection
 
 ---
 
@@ -57,9 +81,10 @@ Year-over-Year comparison featuring:
 ## 🛠️ Tools & Technologies
 
 - **Power BI Desktop** — Dashboard development
-- **DAX** — Custom measures and calculated columns
+- **DAX** — Custom measures and time intelligence calculations
 - **Power Query (M)** — Data transformation and cleaning
 - **Power BI Service** — Cloud publishing and sharing
+- **Microsoft Excel** — Source dataset
 
 ---
 
@@ -75,7 +100,7 @@ Year-over-Year comparison featuring:
 
 ## 👤 Author
 
-**Gaurav** — B.Sc. Data Science | S.M. Shetty College, Mumbai (CGPA: 9.76/10)
+**Gaurav Upadhyay** — B.Sc. Data Science | S.M. Shetty College, Mumbai (CGPA: 9.76/10)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/gaurav-upadhyay-g)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/Gaurav-Upadhyay-2005)
